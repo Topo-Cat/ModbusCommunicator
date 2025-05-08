@@ -1,0 +1,11 @@
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\bin\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.deps.json
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\bin\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.dll
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\bin\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.pdb
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.GeneratedMSBuildEditorConfig.editorconfig
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.AssemblyInfoInputs.cache
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.AssemblyInfo.cs
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.csproj.CoreCompileInputs.cache
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.dll
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\refint\ModbusCommunicator.Modbus.Tcp.dll
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ModbusCommunicator.Modbus.Tcp.pdb
+D:\DeskProject\C#_Project\Test\Test_Project\MVVM模式\ModbusCommunicator\ModbusCommunicator.Modbus.Tcp\obj\Debug\net8.0\ref\ModbusCommunicator.Modbus.Tcp.dll
