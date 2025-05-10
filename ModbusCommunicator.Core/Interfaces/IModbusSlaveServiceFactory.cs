@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModbusCommunicator.Core.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace ModbusCommunicator.Core.Interfaces
 {
     public interface IModbusSlaveServiceFactory
     {
-
+        IModbusSlaveService CreateSlaveService(SlaveListenerConfig slaveConfig);
     }
 }
