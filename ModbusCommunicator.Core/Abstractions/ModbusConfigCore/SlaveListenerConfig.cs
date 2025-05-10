@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModbusCommunicator.Core.Abstractions
 {
-    public abstract class SlaveConnectionConfig
+    public abstract class SlaveListenerConfig
     {
 
     }
