@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator", "Modbu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.Core", "..\ModbusCommunicator.Core\ModbusCommunicator.Core.csproj", "{17392D70-8849-4929-BFF9-E0FC71968469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.NModbusTcp", "..\ModbusCommunicator.NModbusTcp\ModbusCommunicator.NModbusTcp.csproj", "{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.NModbus", "..\ModbusCommunicator.NModbus\ModbusCommunicator.NModbus.csproj", "{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
