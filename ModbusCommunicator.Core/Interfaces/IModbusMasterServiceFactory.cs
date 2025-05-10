@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.Extensions.Logging;
+using ModbusCommunicator.Core.Abstractions;
+using Prism.Ioc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +11,6 @@ namespace ModbusCommunicator.Core.Interfaces
 {
     public interface IModbusMasterServiceFactory
     {
-        IModbusMasterService CreatMaster();
+        IModbusMasterService CreateMaster(MasterConnectionConfig config);
     }
 }
