@@ -109,12 +109,14 @@ public partial class App : PrismApplication
         //    reuse: Reuse.Singleton // 明确指定为 Singleton，与 LoggerFactory 保持一致
         //);
 
-        containerRegistry.RegisterSingleton<ILogger<ModbusTcpClosedLoopOptions>>(() =>
-        { 
-            var factory = containerRegistry.GetContainer().Resolve<ILoggerFactory>();
-            return factory.CreateLogger<ModbusTcpClosedLoopOptions>();
-        }
-        );
+        //containerRegistry.RegisterSingleton<ILogger<ModbusTcpClosedLoopOptions>>(() =>
+        //{ 
+        //    var factory = containerRegistry.GetContainer().Resolve<ILoggerFactory>();
+        //    return factory.CreateLogger<ModbusTcpClosedLoopOptions>();
+        //}
+        //);
+
+        containerRegistry.RegisterSingleton(typeof(ILogger<>), typeof(ILogger<>));
 
         containerRegistry.RegisterSingleton<IModbusTcpConfigurationService, ModbusConfigurationService>();
 
