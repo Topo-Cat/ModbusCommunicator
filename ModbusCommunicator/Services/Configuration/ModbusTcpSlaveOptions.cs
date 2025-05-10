@@ -33,14 +33,14 @@ namespace ModbusCommunicator.Services.Configuration
         /// 地址范围将是 0 到 NumberOfCoils - 1。
         /// </summary>
         [Range(1, 65536)] // Modbus 地址空间限制
-        public int NumberOfCoils { get; set; } = 10000;
+        public int NumberOfCoils { get; set; } = 1000;
 
         /// <summary>
         /// 从站支持的离散输入（Discrete Inputs, 1xxxx）的总数量。
         /// 地址范围将是 0 到 NumberOfDiscreteInputs - 1。
         /// </summary>
         [Range(1, 65536)] // Modbus 地址空间限制
-        public int NumberOfDiscreteInputs { get; set; } = 10000;
+        public int NumberOfDiscreteInputs { get; set; } = 1000;
 
         /// <summary>
         /// 从站支持的保持寄存器（Holding Registers, 4xxxx）的总数量。

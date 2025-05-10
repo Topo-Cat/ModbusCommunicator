@@ -5,9 +5,9 @@ VisualStudioVersion = 17.13.35818.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator", "ModbusCommunicator.csproj", "{9D42B805-334A-431F-984A-3F4CF0D10FE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.Modbus.Core", "..\ModbusCommunicator.Modbus.Core\ModbusCommunicator.Modbus.Core.csproj", "{9050759A-681C-47A3-928C-A63B3997D3F8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.Core", "..\ModbusCommunicator.Core\ModbusCommunicator.Core.csproj", "{17392D70-8849-4929-BFF9-E0FC71968469}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.Modbus.Tcp", "..\ModbusCommunicator.Modbus.Tcp\ModbusCommunicator.Modbus.Tcp.csproj", "{CF6573B4-4BB4-4F1A-8CB5-8F66015A23A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusCommunicator.NModbusTcp", "..\ModbusCommunicator.NModbusTcp\ModbusCommunicator.NModbusTcp.csproj", "{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{9D42B805-334A-431F-984A-3F4CF0D10FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D42B805-334A-431F-984A-3F4CF0D10FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D42B805-334A-431F-984A-3F4CF0D10FE9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9050759A-681C-47A3-928C-A63B3997D3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9050759A-681C-47A3-928C-A63B3997D3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9050759A-681C-47A3-928C-A63B3997D3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9050759A-681C-47A3-928C-A63B3997D3F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF6573B4-4BB4-4F1A-8CB5-8F66015A23A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF6573B4-4BB4-4F1A-8CB5-8F66015A23A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF6573B4-4BB4-4F1A-8CB5-8F66015A23A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF6573B4-4BB4-4F1A-8CB5-8F66015A23A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17392D70-8849-4929-BFF9-E0FC71968469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17392D70-8849-4929-BFF9-E0FC71968469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17392D70-8849-4929-BFF9-E0FC71968469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17392D70-8849-4929-BFF9-E0FC71968469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBD8DD1-39B8-4F87-9FCF-C471B1B6DCA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

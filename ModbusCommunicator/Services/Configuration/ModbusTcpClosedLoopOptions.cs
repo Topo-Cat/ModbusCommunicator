@@ -90,7 +90,4 @@ namespace ModbusCommunicator.Services.Configuration
         [Range(50, 2000)] // 设置一个合理的范围
         public int ReceiveTimeoutMilliseconds { get; set; } = 500;
     }
-
-
-   
 }

@@ -139,6 +139,7 @@ namespace ModbusCommunicator.Services.Implements
 
         public async Task ConnectAsync()
         {
+
             ThrowIfDisposed(); // 检查服务是否已释放
 
             if (IsConnected) // 如果已连接，则直接返回
