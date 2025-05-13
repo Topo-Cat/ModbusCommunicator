@@ -29,7 +29,7 @@ namespace ModbusCommunicator.ModbusCommunicator.NModbus.MasterImplements.Factory
             _logger = logger ?? throw new ArgumentNullException("ModbusMasterServiceFactory ILogger注入失败！");
         }
 
-        public IModbusMasterService CreateMaster(MasterConnectionConfig masterConfig)
+        public async Task<IModbusMasterService> CreateMaster(MasterConnectionConfig masterConfig)
         {
             if(masterConfig is TcpMasterConnectionConfig tcpConfig)
             {
@@ -40,7 +40,7 @@ namespace ModbusCommunicator.ModbusCommunicator.NModbus.MasterImplements.Factory
                 }
 
                 var master = _containerProvider.Resolve<ModbusTcpMasterService>();
-                master.Initialize(tcpConfig);
+                await master.Initialize(tcpConfig);
                 return master;
             }
             else if (masterConfig is SerialMasterConnectionConfig serialConfig)
