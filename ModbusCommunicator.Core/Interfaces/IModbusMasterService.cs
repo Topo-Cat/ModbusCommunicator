@@ -11,7 +11,7 @@ namespace ModbusCommunicator.Core.Interfaces
         Task ConnectAsync();
         Task DisConnectAsync();
 
-        int IsConnected { get; }
+        bool IsConnected { get; }
 
         Task WriteMultipleCoilsAsync(byte slaveAddress, ushort startAddress, bool[] data);
         Task WriteMultipleRegistersAsync(byte slaveAddress, ushort startAddress, ushort[] data);
