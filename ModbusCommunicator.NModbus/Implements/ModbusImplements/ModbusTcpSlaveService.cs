@@ -10,7 +10,7 @@ namespace ModbusCommunicator.NModbus.MasterImplements.FactoryImplement
 {
     public class ModbusTcpSlaveService : IModbusSlaveService
     {
-        public void Initialize(MasterConnectionConfig tcpConfig)
+        public void Initialize(SlaveListenerConfig tcpConfig)
         {
 
         }
