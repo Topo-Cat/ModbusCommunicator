@@ -11,6 +11,6 @@ namespace ModbusCommunicator.Core.Interfaces
 {
     public interface IModbusMasterServiceFactory
     {
-        IModbusMasterService CreateMaster(MasterConnectionConfig config);
+        Task<IModbusMasterService> CreateMaster(MasterConnectionConfig config);
     }
 }
