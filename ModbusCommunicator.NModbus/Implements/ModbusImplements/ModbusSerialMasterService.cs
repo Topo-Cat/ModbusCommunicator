@@ -1,4 +1,5 @@
 ﻿using ModbusCommunicator.Core.Abstractions;
+using ModbusCommunicator.Core.Abstractions.ModbusSerialConfig;
 using ModbusCommunicator.Core.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,7 @@ namespace ModbusCommunicator.NModbus.MasterImplements
     public class ModbusSerialMasterService : IModbusMasterService
     {
 
-        public void Initialize(MasterConnectionConfig serialConfig)
+        public void Initialize(SerialMasterConnectionConfig serialConfig)
         {
 
         }
